@@ -2203,7 +2203,7 @@
                         "Portfolio_Companies_Table_Name": "[parameters('Portfolio_Companies_Table_Name')]",
                         "SCOPE": "[variables('scope')]",
                         "WorkspaceID": "[reference(resourceId(resourceGroup().name, 'Microsoft.OperationalInsights/workspaces', parameters('WorkspaceName')), '2021-06-01').customerId]",
-                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/Mehul-web/Mimecast_TTP_Data_Connector/blob/main/azuredeploy_BitSight_API_FunctionApp.zip"
+                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/dhwanishah-crest/bitsight/raw/refs/heads/main/BitSight310.zip"
                     }
                 }
             ]
