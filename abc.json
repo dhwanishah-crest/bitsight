@@ -1,0 +1,15 @@
+{
+  "version": "Notebook/1.0",
+  "items": [
+    {
+      "type": 1,
+      "content": {
+        "json": {
+          "chartType": "Line",
+          "title": "Sample Chart",
+          "query": "AzureMetrics | where ResourceId contains 'abc'"
+        }
+      }
+    }
+  ]
+}
